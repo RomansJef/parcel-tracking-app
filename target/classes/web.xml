@@ -1,0 +1,22 @@
+<listener>
+    <listener-class>org.apache.logging.log4j.core.web.Log4jServletContextListener</listener-class>
+</listener>
+
+<filter>
+    <filter-name>log4jServletFilter</filter-name>
+    <filter-class>org.apache.logging.log4j.core.web.Log4jServletFilter</filter-class>
+</filter>
+
+<context-param>
+    <param-name>log4jConfiguration</param-name>
+    <param-value>file:///C:/Users/name/Desktop/log4j2.xml</param-value>
+</context-param>
+
+<filter-mapping>
+    <filter-name>log4jServletFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+</filter-mapping>

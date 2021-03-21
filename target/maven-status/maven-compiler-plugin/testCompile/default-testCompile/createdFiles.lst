@@ -1,0 +1,11 @@
+com\parcels\tracking\app\controller\GetByParcelIdServiceControllerTest.class
+com\parcels\tracking\app\service\GetByParcelIdServiceTest.class
+com\parcels\tracking\app\controller\StoreNewParcelServiceControllerTest.class
+com\parcels\tracking\app\controller\UpdateParcelServiceControllerTest.class
+com\parcels\tracking\app\controller\GetParcelsByClientIdServiceControllerTest.class
+com\parcels\tracking\app\service\GetAllParcelsServiceTest.class
+com\parcels\tracking\app\service\GetParcelsByClientIdServiceTest.class
+com\parcels\tracking\app\service\StoreNewParcelServiceTest.class
+com\parcels\tracking\app\controller\GetAllParcelsServiceControllerTest.class
+com\parcels\tracking\app\ParcelsTrackingAppRepositoryTest.class
+com\parcels\tracking\app\service\UpdateParcelServiceTest.class
